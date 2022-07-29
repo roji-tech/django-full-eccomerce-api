@@ -2547,7 +2547,7 @@
         "kind": 5,
         "importPath": "storefront.settings.prod",
         "description": "storefront.settings.prod",
-        "peekOfCode": "DEBUG = False\nSECRET_KEY = os.environ['SECRET_KEY']\nALLOWED_HOSTS = ['moshbuy-prod.herokuapp.com']\nDATABASES = {\n    'default': dj_database_url.config()\n}\nREDIS_URL = os.environ['REDIS_URL']\nCELERY_BROKER_URL = REDIS_URL\nCACHES = {\n    'default': {",
+        "peekOfCode": "DEBUG = False\nSECRET_KEY = os.environ['SECRET_KEY']\nALLOWED_HOSTS = ['my-store-pro.herokuapp.com']\nDATABASES = {\n    'default': dj_database_url.config()\n}\nREDIS_URL = os.environ['REDIS_URL']\nCELERY_BROKER_URL = REDIS_URL\nCACHES = {\n    'default': {",
         "detail": "storefront.settings.prod",
         "documentation": {}
     },
@@ -2556,7 +2556,7 @@
         "kind": 5,
         "importPath": "storefront.settings.prod",
         "description": "storefront.settings.prod",
-        "peekOfCode": "SECRET_KEY = os.environ['SECRET_KEY']\nALLOWED_HOSTS = ['moshbuy-prod.herokuapp.com']\nDATABASES = {\n    'default': dj_database_url.config()\n}\nREDIS_URL = os.environ['REDIS_URL']\nCELERY_BROKER_URL = REDIS_URL\nCACHES = {\n    'default': {\n        'BACKEND': 'django_redis.cache.RedisCache',",
+        "peekOfCode": "SECRET_KEY = os.environ['SECRET_KEY']\nALLOWED_HOSTS = ['my-store-pro.herokuapp.com']\nDATABASES = {\n    'default': dj_database_url.config()\n}\nREDIS_URL = os.environ['REDIS_URL']\nCELERY_BROKER_URL = REDIS_URL\nCACHES = {\n    'default': {\n        'BACKEND': 'django_redis.cache.RedisCache',",
         "detail": "storefront.settings.prod",
         "documentation": {}
     },
@@ -2565,7 +2565,7 @@
         "kind": 5,
         "importPath": "storefront.settings.prod",
         "description": "storefront.settings.prod",
-        "peekOfCode": "ALLOWED_HOSTS = ['moshbuy-prod.herokuapp.com']\nDATABASES = {\n    'default': dj_database_url.config()\n}\nREDIS_URL = os.environ['REDIS_URL']\nCELERY_BROKER_URL = REDIS_URL\nCACHES = {\n    'default': {\n        'BACKEND': 'django_redis.cache.RedisCache',\n        'LOCATION': REDIS_URL,",
+        "peekOfCode": "ALLOWED_HOSTS = ['my-store-pro.herokuapp.com']\nDATABASES = {\n    'default': dj_database_url.config()\n}\nREDIS_URL = os.environ['REDIS_URL']\nCELERY_BROKER_URL = REDIS_URL\nCACHES = {\n    'default': {\n        'BACKEND': 'django_redis.cache.RedisCache',\n        'LOCATION': REDIS_URL,",
         "detail": "storefront.settings.prod",
         "documentation": {}
     },
