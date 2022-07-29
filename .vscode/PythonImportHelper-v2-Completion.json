@@ -2457,7 +2457,7 @@
         "kind": 5,
         "importPath": "storefront.settings.dev",
         "description": "storefront.settings.dev",
-        "peekOfCode": "DEBUG = True\nSECRET_KEY = 'django-insecure-hs6j037urx6iav+7#10%-vu4l4f5@@-1_zo)oft4g7$vf2$jmp'\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.mysql',\n        'NAME': 'storefront3',\n        'HOST': 'mysql',\n        'USER': 'root',\n        'PASSWORD': 'MyPassword'\n    }",
+        "peekOfCode": "DEBUG = True\nSECRET_KEY = 'django-insecure-hs6j037urx6iav+7#10%-vu4l4f5@@-1_zo)oft4g7$vf2$jmp'\nDATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.sqlite3\",\n        \"NAME\": os.path.join(BASE_DIR, \"db.sqlite3\"),\n    }\n}\nCELERY_BROKER_URL = 'redis://redis:6379/1'\nCACHES = {",
         "detail": "storefront.settings.dev",
         "documentation": {}
     },
@@ -2466,7 +2466,7 @@
         "kind": 5,
         "importPath": "storefront.settings.dev",
         "description": "storefront.settings.dev",
-        "peekOfCode": "SECRET_KEY = 'django-insecure-hs6j037urx6iav+7#10%-vu4l4f5@@-1_zo)oft4g7$vf2$jmp'\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.mysql',\n        'NAME': 'storefront3',\n        'HOST': 'mysql',\n        'USER': 'root',\n        'PASSWORD': 'MyPassword'\n    }\n}",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-hs6j037urx6iav+7#10%-vu4l4f5@@-1_zo)oft4g7$vf2$jmp'\nDATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.sqlite3\",\n        \"NAME\": os.path.join(BASE_DIR, \"db.sqlite3\"),\n    }\n}\nCELERY_BROKER_URL = 'redis://redis:6379/1'\nCACHES = {\n    'default': {",
         "detail": "storefront.settings.dev",
         "documentation": {}
     },
@@ -2475,7 +2475,7 @@
         "kind": 5,
         "importPath": "storefront.settings.dev",
         "description": "storefront.settings.dev",
-        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.mysql',\n        'NAME': 'storefront3',\n        'HOST': 'mysql',\n        'USER': 'root',\n        'PASSWORD': 'MyPassword'\n    }\n}\nCELERY_BROKER_URL = 'redis://redis:6379/1'",
+        "peekOfCode": "DATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.sqlite3\",\n        \"NAME\": os.path.join(BASE_DIR, \"db.sqlite3\"),\n    }\n}\nCELERY_BROKER_URL = 'redis://redis:6379/1'\nCACHES = {\n    'default': {\n        'BACKEND': 'django_redis.cache.RedisCache',",
         "detail": "storefront.settings.dev",
         "documentation": {}
     },
